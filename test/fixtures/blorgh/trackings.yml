@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  subscriber_id: 1
+  entity_type: MyString
+  entity_id: 1
+  browser_name: MyString
+  browser_version: MyString
+  browser_height: 1
+  browser_width: 1
+  is_ipad: false
+  cookie: MyString
+
+two:
+  subscriber_id: 1
+  entity_type: MyString
+  entity_id: 1
+  browser_name: MyString
+  browser_version: MyString
+  browser_height: 1
+  browser_width: 1
+  is_ipad: false
+  cookie: MyString

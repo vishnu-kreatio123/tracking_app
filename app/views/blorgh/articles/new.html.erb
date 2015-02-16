@@ -1,0 +1,2269 @@
+<!--<h1>New article</h1>-->
+
+<!--<%#= render 'form' %>-->
+
+<!--<%#= link_to 'Back', articles_path %>-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <base href="http://www.idgconnect.com/"/>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <link href='/images/favicon.ico' rel='shortcut icon' type='image/x-icon'/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="google-site-verification" content="bF8r2vTwUlV8QcU8e-9aAyKi3wvocZ9ncnJhehWltDQ" />
+
+  <link href="/fonts/proximanova/stylesheet.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/min/globalstyles.css?1421903984" media="screen" rel="stylesheet" type="text/css" />
+
+  <title>IDG Connect</title>
+  <meta name="description" content="IDG Connect provides research and editorial insight to its global community of B2B decision makers." />
+  <meta name="keywords" content="technology report, articles on technology, information technology white papers, technology news, technology blogs, B2B technology research, technology research, it white papers" />
+
+
+
+  <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <meta name="robots" content="NOODP"/>
+  <link rel="canonical" href="http://www.idgconnect.com/" />
+
+
+
+  <meta name="copyright" content="Copyright ©2015"/>
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-750296-1', 'auto');
+      ga('send', 'pageview');
+  </script>
+  <meta content="authenticity_token" name="csrf-param" />
+  <meta content="Yw2+02obOiJGneD+fbZscNHF/ivbbVaT7bXUsUXJ7po=" name="csrf-token" />
+  <link href="/stylesheets/resp.css?1420607598" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/ios-bug.js?1413803936" type="text/javascript"></script>
+  <style type="text/css">
+      body {
+          -webkit-text-size-adjust: 100%;
+      }
+  </style>
+  <link href="https://plus.google.com/+Idgconnect" rel="publisher" />
+
+</head>
+<body>
+<div id="wrapper">
+<div id="wrapper_header">
+  <div class="header_top">
+    <div class="header_logo">
+      <a href="/"><img src="/images/logo.png" alt="no-images" /></a>
+      <p>ICT and the Global Community</p>
+    </div><!--header_logo-->
+    <div class="header_social_links">
+      <div class="log_register">
+
+        <p class="login_image">
+          <a href="/login">Login</a>/<a href="/comment_new_registration">Register</a>
+        </p>
+
+      </div>
+      <div class="social-links">
+        <img src="/images/plus.jpg" alt="check here" />
+      </div>
+      <ul>
+
+        <li>
+          <a  href="http://twitter.com/idgconnect" target="_blank"><img alt="twt" src="/images/twt.png?1413803936" /></a>
+        </li>
+        <li>
+          <a  href="https://plus.google.com/105240867714830699547/posts" target="_blank"><img alt="google" src="/images/google-p.png?1413803936" /></a>
+        </li>
+        <li>
+          <a  href="http://www.linkedin.com/groups?mostPopular=&amp;gid=2570925&amp;trk=myg_ugrp_ovr" target="_blank"><img alt="Linkd" src="/images/linkd.png?1413803936" title="LinkedIn" /></a>
+
+        </li>
+        <li>
+          <a  href="http://www.facebook.com/#!/pages/IDG-Connect/7303190806?ref=ts" target="_blank"><img alt="fb" src="/images/fb.png?1413803936" /></a>
+        </li>
+        <li>
+          <a  href="/latestpapers" target="_blank"><img alt="rss" src="/images/rss.png?1413803936" /></a>
+        </li>
+      </ul>
+
+
+    </div><!--header_social_links-->
+  </div><!--header_top-->
+
+  <div class="header_middle">
+    <div class="menu_400">
+      <a href="javascripts:void(0)">Menu</a>
+    </div>
+    <div id="menu" class="menu_top">
+      <ul>
+        <li class="">
+          <a href="/type/opinion" class="" title="Opinion">Opinion</a>
+        </li>
+        <li class="">
+          <a href="/type/interviews" class="" title="Interviews">Interviews</a>
+        </li>
+        <li class="">
+          <a href="/type/analysis-review" class="" title="Analysis/Review">Analysis/Review</a>
+        </li>
+        <li class="">
+          <a href="/type/news" class="" title="News">News</a>
+        </li>
+        <li class="">
+          <a href="/full_library" class="" title="White papers">White papers</a>
+        </li>
+      </ul>
+    </div>
+    <div class="search_box">
+
+      <form accept-charset="UTF-8" action="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input class="search" id="query" name="query" placeholder="Search" type="text" />
+        <input id="facet" name="facet" type="hidden" value="true" />
+        <input id="search_sort" name="sort" type="hidden" value="Date" />
+
+        <input class="button" id="s" name="commit" type="submit" value=" " />
+      </form>	</div>
+  </div>
+  <!--header_middle-->
+  <div class="menucontainer">
+    <ul class="mainmenu">
+      <li class="active">
+        <a href="javascript:void(0)" class="global_400"><img src="/images/region-select.png" alt="no-image"></a>
+        <a href="/" class="global"><img src="/images/region-select.png" alt="no-image" /></a>
+      </li>
+      <li class="">
+        <a href="/regions/africa">Africa</a>
+      </li>
+      <li class="">
+        <a href="/regions/asia">Asia</a>
+      </li>
+      <li class="">
+        <a href="/regions/australia">Australia</a>
+      </li>
+      <li class="">
+        <a href="/regions/europe">Europe</a>
+      </li>
+      <li class="">
+        <a href="/regions/middle-east">Middle East</a>
+      </li>
+      <li class="">
+        <a href="/regions/north-america">North America</a>
+      </li>
+      <li class="">
+        <a href="/regions/latin-america">Latin America</a>
+      </li>
+      <li class="search_top">
+        <a href="javascript:void(0)">Search by Topic</a>
+        <ul class="sub_menu" style="display: none;">
+          <li>
+            <a href="/browse_documents/234/it-systems-management/security/threat-and-vulnerability-management">Threat and Vulnerability Management</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/198/it-systems-management/security">Security</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/218/it-systems-management/security/internet-security">Internet Security</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/225/it-systems-management/security/network-security">Network Security</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/222/it-systems-management/security/malware">Malware</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/274/it-systems-management/storage-data-center-solutions/storage-management">Storage Management</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/162/it-systems-management/mobile-communications/mobile-device-management">Mobile Device Management</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/285/it-systems-management/system-design-management/backup-systems-and-services">Backup Systems and Services</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/135/it-systems-management/it-planning-management/business-process-automation">Business Process Automation</a>
+
+          </li>
+          <li>
+            <a href="/browse_documents/143/it-systems-management/it-planning-management/infrastructure-management">Infrastructure Management</a>
+
+          </li>
+        </ul>
+
+      </li>
+    </ul>
+  </div>
+  <!--menucontainer-->
+
+
+</div><!--wrapper_header-->
+
+
+<div id="wrapper_container">
+
+<div class="container_left">
+
+
+<div class="content_left">
+<div data-connectwith="" id="container_32">
+<div class="section_content component_block" data-url="/edit-component?id=187&amp;type=site" id="component_187">
+
+
+
+
+  <script type="text/javascript">
+      var image_details = [{"image_anchor":"/abstract/9454/infoshot-tech-intern-wages","image_anchor_small_image_src":"/IMG/393/9393/infoshot-header-190x116.jpg","image_anchor_big_image_src":"/IMG/393/9393/infoshot-header-430x350.jpg","content_block_para_anchor_href":"/browse_documents/62/business-management/human-resources","content_block_para_anchor_text":"HUMAN RESOURCES","content_block_h2_anchor_href":"/abstract/9454/infoshot-tech-intern-wages","content_block_h2_anchor_text":"InfoShot: Tech intern wages","content_block_ul_imagecomment_anchor_href":"/abstract/9454/infoshot-tech-intern-wages#comment_tab","content_block_ul_imagecomment_anchor_text":"","content_block_ul_imagecomment_anchor_date":"Feb 12"},{"image_anchor":"/abstract/9453/hdr-versus-4k-who-win-fight-tv","image_anchor_small_image_src":"/IMG/739/21739/4k4137-190x116.jpg","image_anchor_big_image_src":"/IMG/739/21739/4k4137-430x350.jpg","content_block_para_anchor_href":"/browse_documents/567/business-management/trends","content_block_para_anchor_text":"TRENDS","content_block_h2_anchor_href":"/abstract/9453/hdr-versus-4k-who-win-fight-tv","content_block_h2_anchor_text":"HDR versus 4K: Who will win the big fight on TV?","content_block_ul_imagecomment_anchor_href":"/abstract/9453/hdr-versus-4k-who-win-fight-tv#comment_tab","content_block_ul_imagecomment_anchor_text":"","content_block_ul_imagecomment_anchor_date":"Feb 12"},{"image_anchor":"/abstract/9449/tommy-flowers-legacy-computers-vs-telephones","image_anchor_small_image_src":"/IMG/702/21702/tommy-flowers-www1755-190x116.jpg","image_anchor_big_image_src":"/IMG/702/21702/tommy-flowers-www1755-430x350.jpg","content_block_para_anchor_href":"/browse_documents/133/it-systems-management/it-planning-management","content_block_para_anchor_text":"IT PLANNING & MANAGEMENT","content_block_h2_anchor_href":"/abstract/9449/tommy-flowers-legacy-computers-vs-telephones","content_block_h2_anchor_text":"Tommy Flowers\u2019 legacy: Computers vs. telephones","content_block_ul_imagecomment_anchor_href":"/abstract/9449/tommy-flowers-legacy-computers-vs-telephones#comment_tab","content_block_ul_imagecomment_anchor_text":"","content_block_ul_imagecomment_anchor_date":"Feb 12"},{"image_anchor":"/blog-abstract/9476/something-uniquely-italian-facebook-dead","image_anchor_small_image_src":"/IMG/542/6542/snapshot-190x116.jpg","image_anchor_big_image_src":"/IMG/542/6542/snapshot-430x350.jpg","content_block_para_anchor_href":"/browse_documents/161/it-systems-management/mobile-communications/mobile-applications","content_block_para_anchor_text":"MOBILE APPLICATIONS","content_block_h2_anchor_href":"/blog-abstract/9476/something-uniquely-italian-facebook-dead","content_block_h2_anchor_text":"Something uniquely Italian about \u2018Facebook\u2019 for the dead?...","content_block_ul_imagecomment_anchor_href":"/blog-abstract/9476/something-uniquely-italian-facebook-dead#comment_tab","content_block_ul_imagecomment_anchor_text":"","content_block_ul_imagecomment_anchor_date":"Feb 11"}]
+
+  </script>
+
+  <div class="container_top">
+    <div id="container_left_image_parent">
+      <div id="container_left_image_parent_slide">
+
+        <!--rails loop start-->
+        <div class="container_left_image"  style="left:0%">
+          <a href="/abstract/9454/infoshot-tech-intern-wages"><img alt=" " src="/IMG/393/9393/infoshot-header-430x350.jpg?1396537000" /></a>
+          <span></span>
+          <div class="hover_image_1 left_content">
+            <p>
+              <a href="/browse_documents/62/business-management/human-resources">HUMAN RESOURCES</a>
+            </p>
+            <h2><a href="/abstract/9454/infoshot-tech-intern-wages">InfoShot: Tech intern wages</a></h2>
+            <ul>
+              <li>
+                <a>Feb 12</a>
+              </li>
+            </ul>
+          </div>
+          <!--hover_image_1-->
+        </div>
+        <!--container_left_image-->
+        <!--rails loop end-->
+        <!--rails loop start-->
+        <div class="container_left_image"  style="left:100%">
+          <a href="/abstract/9453/hdr-versus-4k-who-win-fight-tv"><img alt=" " src="/IMG/739/21739/4k4137-430x350.jpg?1423731781" /></a>
+          <span></span>
+          <div class="hover_image_1 left_content">
+            <p>
+              <a href="/browse_documents/567/business-management/trends">TRENDS</a>
+            </p>
+            <h2><a href="/abstract/9453/hdr-versus-4k-who-win-fight-tv">HDR versus 4K: Who will win the big fight on TV?</a></h2>
+            <ul>
+              <li>
+                <a>Feb 12</a>
+              </li>
+            </ul>
+          </div>
+          <!--hover_image_1-->
+        </div>
+        <!--container_left_image-->
+        <!--rails loop end-->
+        <!--rails loop start-->
+        <div class="container_left_image"  style="left:200%">
+          <a href="/abstract/9449/tommy-flowers-legacy-computers-vs-telephones"><img alt=" " src="/IMG/702/21702/tommy-flowers-www1755-430x350.jpg?1423722847" /></a>
+          <span></span>
+          <div class="hover_image_1 left_content">
+            <p>
+              <a href="/browse_documents/133/it-systems-management/it-planning-management">IT PLANNING &amp; MANAGEMENT</a>
+            </p>
+            <h2><a href="/abstract/9449/tommy-flowers-legacy-computers-vs-telephones">Tommy Flowers’ legacy: Computers vs. telephones</a></h2>
+            <ul>
+              <li>
+                <a>Feb 12</a>
+              </li>
+            </ul>
+          </div>
+          <!--hover_image_1-->
+        </div>
+        <!--container_left_image-->
+        <!--rails loop end-->
+        <!--rails loop start-->
+        <div class="container_left_image"  style="left:300%">
+          <a href="/blog-abstract/9476/something-uniquely-italian-facebook-dead"><img alt=" " src="/IMG/542/6542/snapshot-430x350.jpg?1379346069" /></a>
+          <span></span>
+          <div class="hover_image_1 left_content">
+            <p>
+              <a href="/browse_documents/161/it-systems-management/mobile-communications/mobile-applications">MOBILE APPLICATIONS</a>
+            </p>
+            <h2><a href="/blog-abstract/9476/something-uniquely-italian-facebook-dead">Something uniquely Italian about ‘Facebook’ for the dead?</a></h2>
+            <ul>
+              <li>
+                <a>Feb 11</a>
+              </li>
+            </ul>
+          </div>
+          <!--hover_image_1-->
+        </div>
+        <!--container_left_image-->
+        <!--rails loop end-->
+
+      </div>
+    </div>
+    <div class="container_right_image">
+      <div class="right_image_1">
+        <a href="/abstract/9453/hdr-versus-4k-who-win-fight-tv"><img alt=" " src="/IMG/739/21739/4k4137-190x116.jpg?1423731781" /></a>
+        <span></span>
+        <div class="hover_image_2 left_content">
+          <p>
+            <a href="/browse_documents/567/business-management/trends">TRENDS</a>
+          </p>
+          <h2><a href="/abstract/9453/hdr-versus-4k-who-win-fight-tv">HDR versus 4K: Who will win the big fight on TV?</a></h2>
+          <ul>
+            <li>
+              <a>Feb 12</a>
+            </li>
+          </ul>
+        </div>
+        <!--hover_image_1-->
+      </div>
+      <!--right_image_1-->			<div class="right_image_1">
+      <a href="/abstract/9449/tommy-flowers-legacy-computers-vs-telephones"><img alt=" " src="/IMG/702/21702/tommy-flowers-www1755-190x116.jpg?1423722847" /></a>
+      <span></span>
+      <div class="hover_image_2 left_content">
+        <p>
+          <a href="/browse_documents/133/it-systems-management/it-planning-management">IT PLANNING &amp; MANAGEMENT</a>
+        </p>
+        <h2><a href="/abstract/9449/tommy-flowers-legacy-computers-vs-telephones">Tommy Flowers’ legacy: Computers vs. telephones</a></h2>
+        <ul>
+          <li>
+            <a>Feb 12</a>
+          </li>
+        </ul>
+      </div>
+      <!--hover_image_1-->
+    </div>
+      <!--right_image_1-->			<div class="right_image_1">
+      <a href="/blog-abstract/9476/something-uniquely-italian-facebook-dead"><img alt=" " src="/IMG/542/6542/snapshot-190x116.jpg?1379346069" /></a>
+      <span></span>
+      <div class="hover_image_2 left_content">
+        <p>
+          <a href="/browse_documents/161/it-systems-management/mobile-communications/mobile-applications">MOBILE APPLICATIONS</a>
+        </p>
+        <h2><a href="/blog-abstract/9476/something-uniquely-italian-facebook-dead">Something uniquely Italian about ‘Facebook’ for the dead?</a></h2>
+        <ul>
+          <li>
+            <a>Feb 11</a>
+          </li>
+        </ul>
+      </div>
+      <!--hover_image_1-->
+    </div>
+      <!--right_image_1-->
+    </div>
+    <!--container_right_image-->
+  </div>
+  <!--container_top-->
+
+
+
+</div>
+<div class="section_content component_block" data-url="/edit-component?id=188&amp;type=site" id="component_188">
+
+
+<div class="container_left_content">
+  <div class="left_content">
+    <a href="/blog-abstract/9463/fox-news-bullying-comment-bullied-bully"><img alt=" " src="/IMG/802/21802/business-cards-comment4504-300x190.jpg?1423669127" /></a>
+    <p><a href="/browse_documents/66/business-management/human-resources/human-resource-management">HUMAN RESOURCE MANAGEMENT</a></p>
+    <h2><a href="/blog-abstract/9463/fox-news-bullying-comment-bullied-bully">Fox News bullying comment: Bullied or bully?</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/457">IDG Connect</a>
+      </li>
+      <li>
+        <a>02/11/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      In this contributed piece, Andrew Faas, author of ‘The Bully’s Trap’ discusses the recent Phillip Perea news story.
+    </p>
+  </div><!--left_content-->
+  <div class="left_content">
+    <a href="/blog-abstract/9474/apple-usd700bn-market-cap-spectacular-rise-tech-economy"><img alt=" " src="/IMG/542/6542/snapshot-300x190.jpg?1379346069" /></a>
+    <p><a href="/browse_documents/1/business-management">BUSINESS MANAGEMENT</a></p>
+    <h2><a href="/blog-abstract/9474/apple-usd700bn-market-cap-spectacular-rise-tech-economy">Apple’s $700bn market cap and the spectacular rise of the tech economy</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/425">Martin Veitch</a>
+      </li>
+      <li>
+        <a>02/11/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      The amazing valuations of the tech giants won’t hurt innovation or entrepreneurs
+    </p>
+  </div><!--left_content-->
+</div><!--container_left_content-->
+<div class="container_left_content">
+  <div class="left_content">
+    <a href="/blog-abstract/9446/top-tips-preparing-regulations"><img alt=" " src="/IMG/143/9143/toptips-header-300x190.jpg?1415112930" /></a>
+    <p><a href="/browse_documents/102/business-management/regulatory-compliance">REGULATORY COMPLIANCE</a></p>
+    <h2><a href="/blog-abstract/9446/top-tips-preparing-regulations">Top Tips: Preparing for new big data regulations</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/457">IDG Connect</a>
+      </li>
+      <li>
+        <a>02/11/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      Top tips for preparing for all big data eventualities
+    </p>
+  </div><!--left_content-->
+  <div class="left_content">
+    <a href="/abstract/9444/venezuela-the-rise-digitally-enabled-barter"><img alt=" " src="/IMG/672/21672/nappies0157-300x190.jpg?1423645387" /></a>
+    <p><a href="/browse_documents/342/software-web-development/internet/social-networks">SOCIAL NETWORKS</a></p>
+    <h2><a href="/abstract/9444/venezuela-the-rise-digitally-enabled-barter">Venezuela: The rise of digitally-enabled barter</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/692">Ligimat Pérez</a>
+      </li>
+      <li>
+        <a>02/11/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      How can new technology help people deal with Venezuela’s widespread shortages?
+    </p>
+  </div><!--left_content-->
+</div><!--container_left_content-->
+<div class="container_left_content">
+  <div class="left_content">
+    <a href="/abstract/9442/southeast-asia-is-circular-economy-key-growth"><img alt=" " src="/IMG/666/21666/circular-economy5220-300x190.jpg?1423636756" /></a>
+    <p><a href="/browse_documents/1/business-management">BUSINESS MANAGEMENT</a></p>
+    <h2><a href="/abstract/9442/southeast-asia-is-circular-economy-key-growth">Southeast Asia: Is a “Circular Economy” the key for growth?</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/457">IDG Connect</a>
+      </li>
+      <li>
+        <a>02/11/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      Does Southeast Asia need a ‘Circular Economy’?
+    </p>
+  </div><!--left_content-->
+  <div class="left_content">
+    <a href="/blog-abstract/9466/uk-new-research-childhood-cyberbullying"><img alt=" " src="/IMG/542/6542/snapshot-300x190.jpg?1379346069" /></a>
+    <p><a href="/browse_documents/338/software-web-development/internet">INTERNET</a></p>
+    <h2><a href="/blog-abstract/9466/uk-new-research-childhood-cyberbullying">UK: New research into childhood cyberbullying</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/212">Kathryn Cave</a>
+      </li>
+      <li>
+        <a>02/10/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      We discuss the findings of the Action For Children research released today
+    </p>
+  </div><!--left_content-->
+</div><!--container_left_content-->
+<div class="container_left_content">
+  <div class="left_content">
+    <a href="/abstract/9441/nutmeg-boss-pension-plans-eye-abroad"><img alt=" " src="/IMG/654/21654/nick-30752-300x190.jpg?1423582774" /></a>
+    <p><a href="/browse_documents/5/business-management/accounting-and-finance/financial-management-solutions">FINANCIAL MANAGEMENT SOLUTIONS</a></p>
+    <h2><a href="/abstract/9441/nutmeg-boss-pension-plans-eye-abroad">Nutmeg boss has pension plans and an eye on abroad</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/425">Martin Veitch</a>
+      </li>
+      <li>
+        <a>02/10/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      Nick Hungerford is changing UK wealth management and wants to build an Amazon-like financial services experience
+    </p>
+  </div><!--left_content-->
+  <div class="left_content">
+    <a href="/abstract/9435/c-suite-career-advice-chris-savage-wistia"><img alt=" " src="/IMG/993/11993/c-suite-header-300x190.jpg?1415113016" /></a>
+    <p><a href="/browse_documents/62/business-management/human-resources">HUMAN RESOURCES</a></p>
+    <h2><a href="/abstract/9435/c-suite-career-advice-chris-savage-wistia">C-suite career advice: Chris Savage, Wistia</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/457">IDG Connect</a>
+      </li>
+      <li>
+        <a>02/10/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      We ask industry leading C-suite professionals for their expert career advice...
+    </p>
+  </div><!--left_content-->
+</div><!--container_left_content-->
+<div class="container_left_content">
+  <div class="left_content">
+    <a href="/abstract/9434/wanted-era-era-low-heat-computing"><img alt=" " src="/IMG/636/21636/motherboard-fire4006-300x190.jpg?1423559565" /></a>
+    <p><a href="/browse_documents/347/green-business">GREEN BUSINESS</a></p>
+    <h2><a href="/abstract/9434/wanted-era-era-low-heat-computing">Wanted: a new era in era of low-heat computing</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/697">Alex Cruickshank</a>
+      </li>
+      <li>
+        <a>02/10/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      Computers generate a lot of heat, most of which is wasted. But that's changing thanks to some novel thinking.
+    </p>
+  </div><!--left_content-->
+  <div class="left_content">
+    <a href="/abstract/9430/mbraintrain-serbian-startups-future-brain-tech"><img alt=" " src="/IMG/575/21575/smarting-mbraintrain4058-300x190.jpg?1423550356" /></a>
+    <p><a href="/browse_documents/55/business-management/healthcare">HEALTHCARE</a></p>
+    <h2><a href="/abstract/9430/mbraintrain-serbian-startups-future-brain-tech">mBrainTrain: Serbian startups &amp; the future of brain tech</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/212">Kathryn Cave</a>
+      </li>
+      <li>
+        <a>02/10/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      Bogdan Mijović, co-founder of mBrainTrain, discusses Brain Computer Interfaces
+    </p>
+  </div><!--left_content-->
+</div><!--container_left_content-->
+<div class="container_left_content">
+  <div class="left_content">
+    <a href="/abstract/9452/netbiscuits-ceo-know-customers-lose"><img alt=" " src="/IMG/723/21723/maxresdefault4307-300x190.jpg?1423496431" /></a>
+    <p><a href="/browse_documents/322/software-web-development/web-development/web-analytics">WEB ANALYTICS</a></p>
+    <h2><a href="/abstract/9452/netbiscuits-ceo-know-customers-lose">Netbiscuits CEO: Know your customers or lose them</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/425">Martin Veitch</a>
+      </li>
+      <li>
+        <a>02/09/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      Daniel Weisbeck, CEO of mobile analytics firm Netbiscuits, says sellers have to work harder to understand buyer behaviour
+    </p>
+  </div><!--left_content-->
+  <div class="left_content">
+    <a href="/abstract/9429/typical-tommy-petrogiannis-silanis"><img alt=" " src="/IMG/731/6731/typical24-header-300x190.jpg?1415112967" /></a>
+    <p><a href="/browse_documents/62/business-management/human-resources">HUMAN RESOURCES</a></p>
+    <h2><a href="/abstract/9429/typical-tommy-petrogiannis-silanis">Typical 24: Tommy Petrogiannis, Silanis</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/457">IDG Connect</a>
+      </li>
+      <li>
+        <a>02/09/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      IDG Connect is looking to speak to IT, business and marketing professionals across the spectrum to discover more about their very different, typical working days…...
+    </p>
+  </div><!--left_content-->
+</div><!--container_left_content-->
+<div class="container_left_content">
+  <div class="left_content">
+    <a href="/abstract/9428/sony-crisis-the-role-education-fighting-cybercrime"><img alt=" " src="/IMG/573/21573/infosec5406-300x190.jpg?1423473586" /></a>
+    <p><a href="/browse_documents/198/it-systems-management/security">SECURITY</a></p>
+    <h2><a href="/abstract/9428/sony-crisis-the-role-education-fighting-cybercrime">Sony crisis: The role of education in fighting cybercrime</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/390">Ayesha Salim</a>
+      </li>
+      <li>
+        <a>02/09/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      We speak with Professor Keith Martin on the role of academia in fighting cybercrime.
+    </p>
+  </div><!--left_content-->
+  <div class="left_content">
+    <a href="/abstract/9425/keepod-africa-computing-access"><img alt=" " src="/IMG/542/21542/giorgio-montersino4207-300x190.jpg?1423463498" /></a>
+    <p><a href="/browse_documents/157/it-systems-management/it-planning-management/technology-planning-and-analysis">TECHNOLOGY PLANNING AND ANALYSIS</a></p>
+    <h2><a href="/abstract/9425/keepod-africa-computing-access">Keepod Africa: Computing access for all?</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/660">Vincent Matinde</a>
+      </li>
+      <li>
+        <a>02/09/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      Not everyone in Africa has the capacity of owning a computer. But Keepod aims to get most connected through a shared but private technology.
+    </p>
+  </div><!--left_content-->
+</div><!--container_left_content-->
+<div class="container_left_content">
+  <div class="left_content">
+    <a href="/abstract/9437/crowdsourcing-innovation-claudio-bonfiglioli-sharebot"><img alt=" " src="/IMG/352/5352/crowdsourcing2443-300x190.jpg?1372430844" /></a>
+    <p><a href="/browse_documents/86/business-management/manufacturing-and-process-management">MANUFACTURING AND PROCESS MANAGEMENT</a></p>
+    <h2><a href="/abstract/9437/crowdsourcing-innovation-claudio-bonfiglioli-sharebot">Crowdsourcing Innovation: Claudio Bonfiglioli, Sharebot</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/336">Dan Swinhoe</a>
+      </li>
+      <li>
+        <a>02/07/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      Crowdfunding sites are offering a new path for inventors with original ideas. We talk to inventors looking to gain the public’s favour...
+    </p>
+  </div><!--left_content-->
+  <div class="left_content">
+    <a href="/blog-abstract/9455/news-roundup-magna-cartas-trolling-self-driving-apples"><img alt=" " src="/IMG/741/21741/runner1928-wiki-media4804-300x190.jpg?1423238020" /></a>
+    <p><a href="/browse_documents/338/software-web-development/internet">INTERNET</a></p>
+    <h2><a href="/blog-abstract/9455/news-roundup-magna-cartas-trolling-self-driving-apples">News Roundup: Magna Cartas, trolling and self-driving Apples</a></h2>
+    <ul>
+      <li class="extra_space">
+        <a href="/author/336">Dan Swinhoe</a>
+      </li>
+      <li>
+        <a>02/06/2015</a>
+      </li>
+    </ul>
+    <p class="left_content_para">
+      A roundup of the week’s tech news including warrant canaries, backdoor protests and blue ticks
+    </p>
+  </div><!--left_content-->
+</div><!--container_left_content-->
+<!--<div class="button">
+</div> -->
+<div class="button">
+  <a href="/type/all/page/2">See More</a>
+</div>
+
+
+</div>
+</div>
+
+</div><!--content_left-->
+
+</div>
+<div class="container_right">
+
+<div class="right_common_block tab_content_parent">
+  <div class="right_tab">
+    <div class="right_heading">
+      <h3>Top Content</h3>
+    </div><!--right_heading-->
+    <div id="parent_tab">
+
+      <div data-connectwith="" id="container_36">
+        <div class="component_block" data-url="/edit-component?id=194&amp;type=site" id="component_194">
+          <div class="ttab ui-tabs component_content ui-widget ui-widget-content ui-corner-allab ui-tabs component_content" id="tab_tab_right"><ul id="tab_right" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+            <li class="ui-corner-top ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#Opinion" title="Opinion">Opinion</a></li>
+            <li class="ui-corner-top ui-state-default"><a href="#Interviews" title="Interviews">Interviews</a></li>
+            <li class="ui-corner-top ui-state-default"><a href="#Analysis" title="Analysis">Analysis</a></li>
+            <li class="ui-corner-top ui-state-default"><a href="#news" title="News">News</a></li>
+          </ul>
+            <div id='Opinion' class="">
+              <div class="tab_content">
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/blog-abstract/4332/news-roundup-rapping-about-twitter-apple-excitment-killing-computers-with-pollution"><img alt=" " src="/IMG/306/7306/from-wiki0139-80x60.jpg?1382718197" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/338/software-web-development/internet">INTERNET</a></h5>
+                    <p>
+                      <a href="/blog-abstract/4332/news-roundup-rapping-about-twitter-apple-excitment-killing-computers-with-pollution">News Roundup: Rapping About Twitter, Apple...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/blog-abstract/3720/european-datacentre-options-appeal-post-nsa-world"><img alt=" " src="/IMG/659/6659/data-centre-eu5241-80x60.jpg?1380627379" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/349/green-business/data-center">DATA CENTER</a></h5>
+                    <p>
+                      <a href="/blog-abstract/3720/european-datacentre-options-appeal-post-nsa-world">European Datacentre Options Appeal in the...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/blog-abstract/4352/-workaholism-is-more-than-hours-work-week-damaging-your-health"><img alt=" " src="/IMG/328/7328/workaholics-brentbat3318-80x60.jpg?1382965343" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/69/business-management/human-resources/workforce-planning-and-management">WORKFORCE PLANNING AND MANAGEMENT</a></h5>
+                    <p>
+                      <a href="/blog-abstract/4352/-workaholism-is-more-than-hours-work-week-damaging-your-health">‘Workaholism’: Is More Than 50 Hours’ Work...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+              </div>
+
+            </div>
+
+            <div id='Interviews' class="ui-tabs-hide">
+              <div class="tab_content">
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/9414/ibm-sets-watson-free-world"><img alt=" " src="/IMG/503/21503/28-01-15-ibm-sets-watson-free-to-re-think-the-world5850-80x60.jpg?1422687041" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/20/business-management/business-intelligence/statistical-data-analysis">STATISTICAL DATA ANALYSIS</a></h5>
+                    <p>
+                      <a href="/abstract/9414/ibm-sets-watson-free-world">IBM sets Watson free to re-think the world...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/4275/who-biggest-brother"><img alt=" " src="/IMG/253/7253/skyhigh-networks-arria-belli3242-80x60.jpg?1382535356" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/232/it-systems-management/security/security-policies">SECURITY POLICIES</a></h5>
+                    <p>
+                      <a href="/abstract/4275/who-biggest-brother">Who is the Biggest Brother?</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/9433/bt-charged-networking-world"><img alt=" " src="/IMG/641/21641/kevin-taylor-20438-80x60.jpg?1422891096" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/158/it-systems-management/mobile-communications">MOBILE COMMUNICATIONS</a></h5>
+                    <p>
+                      <a href="/abstract/9433/bt-charged-networking-world">BT man charged with networking the world...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+              </div>
+
+            </div>
+
+            <div id='Analysis' class="ui-tabs-hide">
+              <div class="tab_content">
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/2426/cloud-world-forum-do-telcos-have-a-role-in-enterprise-cloud-unlikely"><img alt=" " src="/IMG/318/5318/shutterstock-1095812572216-80x60.jpg?1372346994" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/117/it-systems-management/cloud-computing">CLOUD COMPUTING</a></h5>
+                    <p>
+                      <a href="/abstract/2426/cloud-world-forum-do-telcos-have-a-role-in-enterprise-cloud-unlikely">Cloud World Forum: Do Telcos Have A Role...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/9396/looking-big-data-are-approaching-death-hypocrisy"><img alt=" " src="/IMG/377/21377/tower-of-babel2122-80x60.jpg?1423032625" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/322/software-web-development/web-development/web-analytics">WEB ANALYTICS</a></h5>
+                    <p>
+                      <a href="/abstract/9396/looking-big-data-are-approaching-death-hypocrisy">Looking beyond Big Data: Are we approaching...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/9390/mexico-business-loans-verified-facebook"><img alt=" " src="/IMG/228/21228/fb-loans3924-80x60.jpg?1423205443" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/359/green-business/finance">FINANCE</a></h5>
+                    <p>
+                      <a href="/abstract/9390/mexico-business-loans-verified-facebook">Mexico: Business loans verified via Facebook?...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+              </div>
+
+            </div>
+
+            <div id='news' class="ui-tabs-hide">
+              <div class="tab_content">
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/2960/google-chromecast-limitations-all-potential-buyers-should-consider"><img alt=" " src="/IMG/860/5860/googlechromecastinuse500-80x60.jpg?1392719486" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/106/it-systems-management">IT &amp; SYSTEMS MANAGEMENT</a></h5>
+                    <p>
+                      <a href="/abstract/2960/google-chromecast-limitations-all-potential-buyers-should-consider">7 Google Chromecast Limitations All Potential...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/2730/logic-pro-x-loses-power-gains-features"><img alt=" " src="/IMG/621/5621/logicproxhero100046008orig500-80x60.png?1423378254" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/306/software-web-development">SOFTWARE &amp; WEB DEVELOPMENT</a></h5>
+                    <p>
+                      <a href="/abstract/2730/logic-pro-x-loses-power-gains-features">Logic Pro X loses none of its power, gains...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+                <div class="tab_info">
+                  <div class="tab_image">
+                    <a href="/abstract/2466/airmail-email-client-sleek-fuselage-avoid-little-turbulence"><img alt=" " src="/IMG/410/4410/click5004756-80x60.png?1371531688" /></a>
+                  </div><!--tab_image-->
+                  <div class="image_content">
+                    <h5><a href="/browse_documents/51/business-management/facilities-management-and-office-resources/email-management">EMAIL MANAGEMENT</a></h5>
+                    <p>
+                      <a href="/abstract/2466/airmail-email-client-sleek-fuselage-avoid-little-turbulence">Airmail email client has sleek fuselage,...</a>
+
+                    </p>
+                  </div><!--image_content-->
+                </div><!--tab_info-->
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div><!--parent_tab-->
+  </div><!--right_tab-->
+</div><!--right_common_block-->
+
+<div data-connectwith="" id="container_34">
+  <div class="section_content component_block" data-url="/edit-component?id=192&amp;type=site" id="component_192">
+
+
+    <div class="right_common_block">
+      <div class="library_content">
+        <div class="right_heading">
+          <h3>Content Library</h3>
+        </div><!--right_heading-->
+        <div class="library_block">
+          <!--img src="/images/cate.jpg" alt="no-image" /-->
+          <div id="myImageFlow" class="imageflow" style="height:900px; visibility: visible;">
+
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Application Development&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Seven Steps to Start...&lt;/h2&gt;&lt;p&gt;The promise of agility is compelling, but without a...&lt;/p&gt;&lt;a href='/download/25498'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25498" src="/IMG/811/21811/skytap-logo0031-150x150.PNG?1423770248" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Switches&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;The 10GbE Network is...&lt;/h2&gt;&lt;p&gt;This white paper reveals how to migrate to 10GbE at...&lt;/p&gt;&lt;a href='/download/25497'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25497" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Switches&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Accelerating Network...&lt;/h2&gt;&lt;p&gt;This paper reveals how Dell converged networking innovations...&lt;/p&gt;&lt;a href='/download/25496'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25496" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Switches&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Unlocking the Open Networking...&lt;/h2&gt;&lt;p&gt;Dell’s open-networking initiative disrupts the traditional...&lt;/p&gt;&lt;a href='/download/25495'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25495" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Virtualization&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Using the Network to...&lt;/h2&gt;&lt;p&gt;Find out how to make the transition to virtual computing....&lt;/p&gt;&lt;a href='/download/25494'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25494" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Switches&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Dell Networking Campus...&lt;/h2&gt;&lt;p&gt;Keep up with the demands of campus networks with this...&lt;/p&gt;&lt;a href='/download/25493'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25493" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Switches&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Dell Networking Solutions...&lt;/h2&gt;&lt;p&gt;Download this paper for an overview of Dell’s networking...&lt;/p&gt;&lt;a href='/download/25492'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25492" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Switches&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Build a Firm Foundation...&lt;/h2&gt;&lt;p&gt;Is now the time to upgrade from a three-tier switching...&lt;/p&gt;&lt;a href='/download/25491'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25491" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Virtualization&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Why Active Fabric technology...&lt;/h2&gt;&lt;p&gt;This paper answers six key questions about how data...&lt;/p&gt;&lt;a href='/download/25490'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25490" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+            <img alt="&lt;div class='left_content'&gt;&lt;p&gt;&lt;a&gt;Switches&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Understanding the Benefits...&lt;/h2&gt;&lt;p&gt;Read this white paper and discover the benefits of...&lt;/p&gt;&lt;a href='/download/25489'&gt;Download Content&lt;/a&gt;&lt;/div&gt;" data-url="/download/25489" src="/IMG/303/8303/dell2108-150x150.jpg?1389892949" />
+          </div>
+
+          <div class="more_links_new">
+            <a href="/full_library">View the full Content Library ></a>
+          </div><!--more_links_new-->
+        </div><!--libaray_block-->
+      </div><!--library_content-->
+    </div><!--right_common_block-->
+
+
+  </div>
+</div>
+<div class="apps">
+  <!--	<a href="http://itunes.apple.com/us/app/idg-connect-it-white-paper/id477692770?mt=8" target="_blank"><img src="/images/app.jpg" alt="no-image" /></a>-->
+  <a href="http://www.idgconnectmarketers.com" target="_blank"><img src="/images/Marketers_button.jpg" alt="no-image" /></a>
+  <!--	<a href="http://www.idgconnectapp.com" target="_blank"><img src="/images/android.jpg" alt="no-image" /></a>	-->
+</div><!--apps-->
+
+<div data-connectwith="" id="container_33">
+  <div class="section_content component_block" data-url="/edit-component?id=189&amp;type=site" id="component_189">
+
+    <div class="right_common_block">
+      <div class="recent_comments">
+        <div class="right_heading">
+          <h3>Most Recent Comments</h3>
+        </div><!--right_heading-->
+        <div id="newsticker_block">
+          <div id="news_ticker">
+            <ul>
+              <li class="ticker_list">
+                <div class="recent_content">
+                  <ul>
+                    <li>
+                      <div class="para_content">
+                        <div class="bottom_image">
+                          <p>
+                            Most &quot;hypocrits&quot; are only publically hypocitical. The hypocrisy of their professed positions are well known to themselves and not positions held...
+                          </p>
+                        </div><!--bottom_image-->
+                      </div><!--para_content-->
+                      <p class="comment-text">
+                        <a>Ulysses Blakeley </a> on <a  href="/blog-abstract/9396/looking-big-data-are-approaching-death-hypocrisy#comment_tab">Looking beyond Big Data: Are we approaching the death of hypocrisy?</a>
+
+                        <a href="#"></a>
+                      </p>
+                    </li>
+
+                  </ul>
+                </div><!--recent_content-->
+              </li>
+              <li class="ticker_list">
+                <div class="recent_content">
+                  <ul>
+                    <li>
+                      <div class="para_content">
+                        <div class="bottom_image">
+                          <p>
+                            *Martin* I'm not really an &quot;Apple lover&quot; - maybe read the link: http://www.theinquirer.net/inquirer/news/1015837/no-mass-market-shoo-in-for-apples-boot-camp...
+                          </p>
+                        </div><!--bottom_image-->
+                      </div><!--para_content-->
+                      <p class="comment-text">
+                        <a>Martin Veitch </a> on <a  href="/blog-abstract/9427/friday-rant-we-war-apple#comment_tab">Friday Rant: We need to end the war over Apple</a>
+
+                        <a href="#"></a>
+                      </p>
+                    </li>
+
+                  </ul>
+                </div><!--recent_content-->
+              </li>
+              <li class="ticker_list">
+                <div class="recent_content">
+                  <ul>
+                    <li>
+                      <div class="para_content">
+                        <div class="bottom_image">
+                          <p>
+                            I just checked out their websites. These aren't really business loans, these are all consumer loans. Also, most of these guys charge interest...
+                          </p>
+                        </div><!--bottom_image-->
+                      </div><!--para_content-->
+                      <p class="comment-text">
+                        <a>Dan Fromer </a> on <a  href="/blog-abstract/9390/mexico-business-loans-verified-facebook#comment_tab">Mexico: Business loans verified via Facebook?</a>
+
+                        <a href="#"></a>
+                      </p>
+                    </li>
+
+                  </ul>
+                </div><!--recent_content-->
+              </li>
+              <li class="ticker_list">
+                <div class="recent_content">
+                  <ul>
+                    <li>
+                      <div class="para_content">
+                        <div class="bottom_image">
+                          <p>
+                            Off to signup. Hopefully I get connected soon.
+                          </p>
+                        </div><!--bottom_image-->
+                      </div><!--para_content-->
+                      <p class="comment-text">
+                        <a>mojo706 </a> on <a  href="/blog-abstract/9337/able-wireless-hack-streaming-poor-kenyans#comment_tab">Able Wireless: ‘Hack’ streaming for poor Kenyans </a>
+
+                        <a href="#"></a>
+                      </p>
+                    </li>
+
+                  </ul>
+                </div><!--recent_content-->
+              </li>
+              <li class="ticker_list">
+                <div class="recent_content">
+                  <ul>
+                    <li>
+                      <div class="para_content">
+                        <div class="bottom_image">
+                          <p>
+                            May be if you had a friend who worked at Apple and constantly bought you beer then you would learn to respect Apple more. Either way everyone...
+                          </p>
+                        </div><!--bottom_image-->
+                      </div><!--para_content-->
+                      <p class="comment-text">
+                        <a>mojo706 </a> on <a  href="/blog-abstract/9427/friday-rant-we-war-apple#comment_tab">Friday Rant: We need to end the war over Apple</a>
+
+                        <a href="#"></a>
+                      </p>
+                    </li>
+
+                  </ul>
+                </div><!--recent_content-->
+              </li>
+              <li class="ticker_list">
+                <div class="recent_content">
+                  <ul>
+                    <li>
+                      <div class="para_content">
+                        <div class="bottom_image">
+                          <p>
+                            Interesting thoughts. One theory about Big Data, of course, is that decision making will become better in the round and going with management...
+                          </p>
+                        </div><!--bottom_image-->
+                      </div><!--para_content-->
+                      <p class="comment-text">
+                        <a>Martin Veitch </a> on <a  href="/blog-abstract/9414/ibm-sets-watson-free-world#comment_tab">IBM sets Watson free to re-think the world</a>
+
+                        <a href="#"></a>
+                      </p>
+                    </li>
+
+                  </ul>
+                </div><!--recent_content-->
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div><!--recent_comments-->
+    </div><!--right_common_block-->
+
+
+
+  </div>
+  <div class="section_content component_block" data-url="/edit-component?id=191&amp;type=site" id="component_191">
+
+
+    <div class="right_common_block">
+      <div class="twitter_mention">
+        <style>
+            .twitter_header, .twitter_footer {background: #191d2d;color: #FFF;border-radius: 10px 10px 0px 0px;padding: 10px;}
+            .twitter_footer {border-radius: 0px 0px 10px 10px;}
+            .tweet {width:100%;}
+            .tweet iframe{border:1px solid #cfcfcf !important;max-width: 99.4% !important;}
+            .twitter_header a, .twitter_footer a {color: #FFF;font-size: 12px;}
+            .twitter_footer {text-align:right;}
+        </style>
+        </head>
+        <body>
+        <div class="tweet">
+          <div class="twitter_header"><a href="https://twitter.com/search/?q=IDG+Connect" target="_blank">IDG Connect Mentions on Twitter</a></div><a data-chrome="noheader nofooter noborders" height="375" width="" class="twitter-timeline" href="https://twitter.com/search?q=IDG+Connect"  data-widget-id="342594990020648963">Tweets about "#idg"</a><div class="twitter_footer"><a style="float: left;" target="_blank" href="https://twitter.com"><img alt="" src="http://widgets.twimg.com/i/widget-bird.png"><a href="https://twitter.com/search/?q=IDG+Connect" target="_blank">Join the conversation</a></div><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+<div class="apps">
+  <a href="http://itunes.apple.com/us/app/idg-connect-it-white-paper/id477692770?mt=8" target="_blank"><img src="/images/app.jpg" alt="no-image" /></a>
+</div>
+<div data-connectwith="" id="container_35">
+  <div class="section_content component_block" data-url="/edit-component?id=193&amp;type=site" id="component_193">
+
+    <div class="right_common_block">
+      <div class="resource_center">
+        <div class="right_heading">
+          <h3>Resource Center</h3>
+        </div><!--right_heading-->
+
+        <div class="resource">
+
+          <div id="wrap">
+
+            <div class=" jcarousel-skin-tango">
+
+              <div style="position: relative; display: block;" class="jcarousel-container jcarousel-container-vertical">
+
+                <div style="position: relative;" class="jcarousel-clip jcarousel-clip-vertical">
+
+                  <ul style="overflow: hidden; position: relative; top: -425px; margin: 0px; padding: 0px; left: 0px; height: 950px;" id="mycarousel" class="jcarousel jcarousel-list jcarousel-list-vertical">
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/1541/a10-networks"><img alt="/view_company_report/1541/a10-networks" longdesc="/view_company_report/1541/a10-networks" src="/IMG/672/8672/a10-logo4356-120x74.png?1408113656" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/213/brocade"><img alt="/view_company_report/213/brocade" longdesc="/view_company_report/213/brocade" src="/IMG/824/6824/brocade-jpeg2855-120x74.JPG?1380257357" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/1487/canon"><img alt="/view_company_report/1487/canon" longdesc="/view_company_report/1487/canon" src="/IMG/471/7471/canon-imagerunner-logo5757-120x74.jpg?1383932540" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/1590/check-point-software-technologies"><img alt="/view_company_report/1590/check-point-software-technologies" longdesc="/view_company_report/1590/check-point-software-technologies" src="/IMG/551/10551/images2504-120x74.jpg?1416434933" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/103/cisco-systems-inc"><img alt="/view_company_report/103/cisco-systems-inc" longdesc="/view_company_report/103/cisco-systems-inc" src="/IMG/638/3638/cisco-logo-120x74.gif?1365797969" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/624/interactive-intelligence"><img alt="/view_company_report/624/interactive-intelligence" longdesc="/view_company_report/624/interactive-intelligence" src="/IMG/830/2830/interactive-intelligence-logo-120x74.jpg?1342011074" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/31/ipswitch"><img alt="/view_company_report/31/ipswitch" longdesc="/view_company_report/31/ipswitch" src="/IMG/149/5149/ipswitch-logo-64726-120x74.PNG?1395414277" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/1219/jama-software"><img alt="/view_company_report/1219/jama-software" longdesc="/view_company_report/1219/jama-software" src="/IMG/677/3677/jama-logo-120x74.png?1367201820" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/661/kaseya"><img alt="/view_company_report/661/kaseya" longdesc="/view_company_report/661/kaseya" src="/IMG/379/2379/kaseya-logo-11-120x74.JPG?1421451317" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/1433/nutanix"><img alt="/view_company_report/1433/nutanix" longdesc="/view_company_report/1433/nutanix" src="/IMG/565/5565/logo-nutanix-main2455-120x74.png?1416267775" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/1592/pivotal"><img alt="/view_company_report/1592/pivotal" longdesc="/view_company_report/1592/pivotal" src="/IMG/582/10582/logo-pivotal-whiteonteal-rgb5453-120x74.jpg?1402678303" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/506/qualys"><img alt="/view_company_report/506/qualys" longdesc="/view_company_report/506/qualys" src="/IMG/644/16644/horz-2c-logo-tag-cs-13131-120x74.png?1411058153" /></a>
+                    </li>
+
+                    <li style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical">
+                      <a href="/view_company_report/1242/teradata"><img alt="/view_company_report/1242/teradata" longdesc="/view_company_report/1242/teradata" src="/IMG/992/8992/teradata-logo0220-120x74.jpg?1396459606" /></a>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div style="display: block;" class="jcarousel-prev jcarousel-prev-vertical"></div>
+                <div style="display: block;" class="jcarousel-next jcarousel-next-vertical"></div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div><!--resource-->
+
+      </div><!--resource_center-->
+
+    </div><!--right_common_block-->
+
+
+  </div>
+</div>
+
+<div data-connectwith="" id="container_37">
+  <div class="section_content component_block" data-url="/edit-component?id=196&amp;type=site" id="component_196">
+
+    <div class="right_common_block " id="update-poll">
+      <div class="polls">
+        <div class="right_heading">
+          <h3>Poll</h3>
+        </div><!--right_heading-->
+        <div class="new_poll_style">
+          <p>
+            Would you buy a modular phone?
+          </p>
+          <form accept-charset="UTF-8" action="/wpl/vote/72?article_title=modularity&amp;source=idgconnect" method="post" name="vote"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Yw2+02obOiJGneD+fbZscNHF/ivbbVaT7bXUsUXJ7po=" /></div>
+            <input id="poll_id" name="poll_id" type="hidden" value="72" />
+            <table class="new_poll_options">
+              <tbody>
+
+              <tr>
+
+                <td> <input id="poll_options_id_226" name="poll_options_id" type="radio" value="226" /> </td>
+                <td><label for="poll_options_id_226"> Yes </label></td>
+
+              </tr>
+
+              <td> <input id="poll_options_id_227" name="poll_options_id" type="radio" value="227" /> </td>
+              <td><label for="poll_options_id_227"> No </label></td>
+
+              </tr>
+
+              <td> <input id="poll_options_id_228" name="poll_options_id" type="radio" value="228" /> </td>
+              <td><label for="poll_options_id_228"> Maybe </label></td>
+
+              </tr>
+
+              </tbody>
+            </table>
+          </form>			<div class="poll_result_new">
+          <ul>
+            <li>
+              <a href="javascript:void(0)" data-url="/poll_result/72" class="poll_survey">Poll results</a>|
+            </li>
+            <li><a href="/polls">More Polls</a></li>
+          </ul>
+          <div class="button">
+            <input type="button" value="Vote" class="vote_input poll_survey" id="vote" data-url= "/home/vote/72?article_title=Modularity&source=idgconnect"/>
+          </div><!---button-->
+        </div><!--poll_result_new-->
+        </div><!--poll_content-->
+      </div><!--polls-->
+    </div><!--resource_center-->
+
+
+
+  </div>
+</div>
+
+
+</div><!--container_right-->
+</div><!--wrapper_container-->
+<div id="wrapper_footer">
+  <div data-connectwith="" id="container_44">
+    <div class="section_content component_block" data-editurl="http://staging.incisivecms.co.uk/admin/static_page/edit/875?admin=true&amp;type=site" data-url="/edit-component?id=205&amp;type=site" id="component_205">
+
+      <div class="footer_top">
+        <div class="footer_site">
+          <h4>Site Map</h4>
+          <ul>
+            <li><a href="../../../static/about">About Us</a></li>
+            <li><a href="../../../type/opinion">Opinion</a></li>
+            <li><a href="../../../type/interviews">Interviews</a></li>
+            <li><a href="../../../type/analysis-review">Analysis/Review</a></li>
+            <li><a href="../../../full_library">White Papers</a></li>
+          </ul>
+        </div>
+        <!--footer_site-->
+        <div class="footer_site">
+          <h4>New Topical Vendor Content</h4>
+          <ul>
+            <li><a href="http://www.cloudreadyzone.com" target="_blank">Cloud Security (Connect Zone)</a></li>
+            <li><a href="http://www.futureofthedatacenter.com" target="_blank">Future of the Data Center (Connect Zone)</a></li>
+            <li><a href="http://www.idgconnectinfographic.com" target="_blank">IDG Connect Infographic</a></li>
+          </ul>
+        </div>
+        <!--footer_site-->
+        <div class="footer_site">
+          <h4>IDG PARTNER SITES</h4>
+          <ul>
+            <li><a href="http://www.idgconnectmarketers.com" target="_blank">IDG CONNECT MARKETERS</a></li>
+            <li><a href="http://www.idgdirect.com" target="_blank">IDG DIRECT</a></li>
+            <li><a href="http://www.idg.com" target="_blank">IDG</a></li>
+          </ul>
+        </div>
+        <!--footer_site-->
+        <div class="footer_social_links">
+          <ul>
+            <li>
+              <a target="_blank" href="http://twitter.com/idgconnect"><img src="/images/twt.png?1367904393" alt="twt"></a>
+
+            </li>
+            <li>
+              <a target="_blank" href="https://plus.google.com/105240867714830699547/posts"><img src="/images/google-p.png?1367904393" alt="google"></a>
+
+            </li>
+            <li>
+              <a target="_blank" href="http://www.linkedin.com/groups?mostPopular=&amp;gid=2570925&amp;trk=myg_ugrp_ovr"><img title="LinkedIn" src="/images/linkd.png?1367904393" alt="Linkd"></a>
+
+            </li>
+            <li>
+              <a target="_blank" href="http://www.facebook.com/#!/pages/IDG-Connect/7303190806?ref=ts"><img src="/images/fb.png?1367904393" alt="fb"></a>
+            </li>
+            <li>
+              <a target="_blank" href="/latestpapers"><img src="/images/rss.png?1367904393" alt="rss"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="section_content component_block" data-editurl="http://staging.incisivecms.co.uk/admin/static_page/edit/4550?admin=true&amp;type=site" data-url="/edit-component?id=231&amp;type=site" id="component_231">
+
+      <div class="footer_bottom">
+        <div class="footer_bottom_left">
+          <a href="/"><img src="/images/footer-logo.jpg" alt="no-image" /></a>
+          <p>
+            Copyright  &copy; 2015 IDG Connect Ltd. All rights reserved.
+          </p>
+          <p>
+            Designated trademarks and brands are the property of their respective owners.
+          </p>
+        </div><!--footer-bottom_left-->
+        <div class="footer_bottom_right">
+          <ul>
+            <li>
+              <a href="/static/privacy-policy"> Privacy Policy </a>
+            </li>
+            <li>
+              <a href="/static/terms-of-service-agreement">Terms &amp; Conditions</a>
+            </li>
+            <li>
+              <a href="/contact_us">Contact Us</a>
+            </li>
+            <li>
+              <a href="/static/site-map">Site Map</a>
+            </li>
+          </ul>
+        </div><!--footer_bottom_right-->
+      </div><!---footer_bottom-->
+
+
+    </div>
+    <div class="section_content component_block" data-editurl="http://staging.incisivecms.co.uk/admin/static_page/edit/4549?admin=true&amp;type=site" data-url="/edit-component?id=232&amp;type=site" id="component_232">
+
+      <div class="footer_down_links">
+        <ul>
+          <li>
+            <a href="http://www.cio.com" target="_balnk">CIO</a>|
+          </li>
+          <li>
+            <a href="http://www.computerworld.com" target="_balnk">Computerworld</a>|
+          </li>
+          <li>
+            <a href="http://www.csoonline.com" target="_balnk">CSO</a>|
+          </li>
+
+          <li>
+            <a href="http://www.idgworldexpo.com" target="_balnk">World Expo</a>|
+          </li>
+          <li>
+            <a href="http://www.infoworld.com" target="_balnk">Infoworld</a>|
+          </li>
+          <li>
+            <a href="http://www.itworld.com" target="_balnk">ITworld</a>|
+          </li>
+          <li>
+            <a href="http://www.javaworld.com" target="_balnk">JavaWorld</a>
+          </li>
+          <li>
+            <a href="http://www.linuxworld.com" target="_balnk">Linuxworld</a>|
+          </li>
+          <li>
+            <a href="http://www.macuser.com" target="_balnk">MacUser</a>|
+          </li>
+          <li>
+            <a href="http://www.macworld.com" target="_balnk">Macworld</a>|
+          </li>
+          <li>
+            <a href="http://www.networkworld.com" target="_balnk">Network World</a>|
+          </li>
+          <li>
+            <a href="http://www.pcworld.com" target="_balnk">PC World</a>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+
+</div><!--wrapper-->
+<script src="/javascripts/min/globaljavascripts.js?1413803936" type="text/javascript"></script>
+<script src="/javascripts/jquery.browser.js?1413803936" type="text/javascript"></script>
+<script src="/javascripts/jquery_tabslider.js?1413803936" type="text/javascript"></script>
+<script src="http://www.jugbit.com/jquery/jquery.vticker-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    $(document).ready(function(){
+        $(function(){
+            var opts= {defaultTab: 0};
+            if($("#tab_right")[0] ){
+                var $tabs=$('#tab_tab_right').tabs();
+                $tabs.tabs("select",opts)
+            }
+        });
+    });
+
+    //]]>
+</script>
+
+
+
+<script type="text/javascript">
+    $(function(){
+        newsTicker()
+//updateTicker();
+        setInterval("updateTicker()",1800000)
+    });
+
+    var updateTicker = function(){
+        $('#newsticker_block').empty()
+        $.ajax({
+            url :'/comment_ticker',
+            type:'POST',
+            dataType:'html',
+            beforeSend: function(xhr){
+                xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
+            },
+            success:function(ticker){
+                //$('#news_ticker').empty();
+                //$('#news_ticker').html(ticker);
+                $('#newsticker_block').html(ticker);
+                newsTicker();
+            }
+        });
+    }
+
+    var newsTicker = function(){
+        $('#news_ticker').vTicker({
+            speed: 700,
+            pause: 3000,
+            animation: 'fade',
+            mousePause: false,
+            showItems: 3,
+            padding:4,
+            height:400
+        });
+    }
+</script>
+<script type="text/javascript">
+    $(function() {
+        $(".page_display_bar_right").on("change","select",function(){
+            $(".page_display_bar_right span.select_overlay").html($("option:selected",this).text())
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(function(){
+        $('#container_left_image_parent_slide .container_left_image:first').addClass('active')
+        var left = 0;
+        $('#container_left_image_parent_slide .container_left_image').each(function(){
+            $(this).attr('style','left:'+left+'%')
+            left = left+100;
+        });
+    });
+    $('.container_top').attr('data-value','1,2,3,4')
+    var slideIndex=1;
+    var looping_function = function(){
+        var arr = $('.container_top').attr('data-value').split(',')
+        //console.log(arr)
+        var arr1 = [];
+        arr1[0]=arr[0],
+                arr1[1]=arr[1],
+                arr1[2]=arr[2],
+                arr1[3]=arr[3]
+
+        arr[0] = arr[arr.length-1],
+                arr[1] = arr1[0],
+                arr[2] = arr1[1],
+                arr[3] = arr1[2];
+        $('.container_top').attr('data-value',arr)
+
+        if(slideIndex==arr.length){
+            left="0%";slideIndex=1;duration=0;
+        }else{
+            left="-"+((slideIndex)*100)+"%";slideIndex+=1;duration=1000
+        }
+
+        $("#container_left_image_parent_slide").animate({
+            left: left
+        }, {
+            duration: duration,
+            specialEasing: {
+                height: "easeOutBounce"
+            },
+            start:function(){
+                $("#container_left_image_parent_slide .container_left_image span").animate({
+                    bottom:"-116px"
+                },500)
+                $("#container_left_image_parent_slide .container_left_image .hover_image_1").animate({
+                    bottom:"-116px"
+                },500)
+            },
+            complete: function() {
+                $("#container_left_image_parent_slide .container_left_image").removeClass("active")
+                $("#container_left_image_parent_slide .container_left_image:nth-child("+slideIndex+")").addClass("active")
+                $("#container_left_image_parent_slide .container_left_image:nth-child("+slideIndex+") span").animate({
+                    bottom:"0px"
+                },500)
+                $("#container_left_image_parent_slide .container_left_image:nth-child("+slideIndex+") .hover_image_1").animate({
+                    bottom:"0px"
+                },500)
+            }
+        });
+
+
+        right_image_details=image_details.filter(function (item,index) { return index !== (slideIndex-1) });
+        $.each(right_image_details,function(index,val){
+            $('.container_right_image .right_image_1:eq("'+index+'")>a').attr('href',val['image_anchor'])
+            $('.container_right_image .right_image_1:eq("'+index+'")>a>img').attr('src',val['image_anchor_small_image_src'])
+            $('.container_right_image .right_image_1:eq("'+index+'") div.hover_image_2.left_content p>a').attr('href',val['content_block_para_anchor_href']);
+            $('.container_right_image .right_image_1:eq("'+index+'") div.hover_image_2.left_content p>a').text(val['content_block_para_anchor_text'])
+            $('.container_right_image .right_image_1:eq("'+index+'") div.hover_image_2.left_content h2>a').attr('href',val['content_block_h2_anchor_href']);
+            $('.container_right_image .right_image_1:eq("'+index+'") div.hover_image_2.left_content h2>a').text(val['content_block_h2_anchor_text'])
+            $('.container_right_image .right_image_1:eq("'+index+'") div.hover_image_2.left_content ul li.image_comment>a').attr('href',val['content_block_ul_imagecomment_anchor_href']);
+            $('.container_right_image .right_image_1:eq("'+index+'") div.hover_image_2.left_content ul li.image_comment>a').text(val['content_block_ul_imagecomment_anchor_text']);
+            $('.container_right_image .right_image_1:eq("'+index+'") div.hover_image_2.left_content ul li:eq(1)>a').text(val['content_block_ul_imagecomment_anchor_date'])
+        });
+
+    }
+    var refreshId = setInterval("looping_function()",8000)
+    $('.container_top').mouseover(function(){
+        clearInterval(refreshId);
+    });
+    $('.container_top').mouseout(function(){
+        refreshId = setInterval("looping_function()",8000)
+    });
+
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        jQuery.ajax({
+            type: 'GET',
+            dataType: 'html',
+            beforeSend: function(xhr){
+                xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
+            },
+            url: '/verify-site-login',
+            success: function(update_data){
+                jQuery(".log_register").html(update_data);
+            }
+        });
+    });
+
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(window).load(function() {
+            // The slider being synced must be initialized first
+            $('#carousel1').flexslider({
+                animation:"slide",
+                controlNav: false,
+                animationLoop: false,
+                //slideshow: false,\
+                itemWidth: 144,
+                itemMargin: 5,
+                asNavFor: '#slider1'
+            });
+
+            $('#slider1').flexslider({
+                keyboardNav: true,
+                animation: "slide",
+                controlNav: false,
+                animationLoop:true,
+                slideshow:true,
+                pausePlay:true,
+                pauseText: 'PAUSE SLIDES',
+                playText: 'PLAY SLIDES',
+                slideshowSpeed: 7000,
+
+                controlsContainer: ".flex-container",
+                //sync: "#carousel1",
+                start: function(slider) {
+                    slider.find('.slideIndex').html(slider.currentSlide + 1 +  " / "  + slider.count);
+                    $('a.first-slide').click(function() {
+                        $('.flexslider').show();
+                        var slideTo = $(this).attr("rel");
+                        var slideToInt = parseInt(slideTo);
+                        if (slider.currentSlide != slideToInt) {
+                            slider.flexAnimate(slideToInt);
+                        }
+                    });
+                    $('a.last-slide').click(function() {
+                        $('.flexslider').show();
+                        var slideTo = $(this).attr("rel");
+                        var slideToInt = parseInt(slideTo);
+                        if (slider.currentSlide != slideToInt) {
+                            slider.flexAnimate(slideToInt);
+                        }
+                    });
+                    $(".previous-slide").click(function(){
+                        $('#slider1').flexslider('previous');
+                    });
+                    $(".next-slide").click(function(){
+                        $('#slider1').flexslider('next');
+                    });
+                },
+                after: function(slider) {
+
+                    slider.find('.slideIndex').html(slider.currentSlide + 1 +  "/"  + slider.count);
+
+                }
+            });
+        });
+    });
+
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".fullscreen").click(function(){
+            //$(".ad-image-wrapper").fullScreen(false);
+            if (screenfull.enabled) {
+                screenfull.toggle($('#slide-gal')[0]);
+            }else{
+                if($('.slide-play-block').hasClass('fullgallery')){
+                    esc_fullscreen()
+                }else{
+                    $(document).scrollTop(0);
+                    $('.slide-play-block').addClass("fullgallery");
+                    $('.over_lay').css('display','block');
+                    $('body').css('overflow','hidden');
+                }
+                return false;
+            }
+        });
+
+        var esc_fullscreen = function(){
+            $(document).scrollTop(100);
+            $('.slide-play-block').removeClass("fullgallery");
+            $('.over_lay').css('display','none');
+            $('body').css('overflow','scroll')
+        }
+
+        $(document).keyup(function(e) {
+            if (e.keyCode == 27) {
+                esc_fullscreen();
+            }
+        });
+
+        $(document).on('click','.over_lay',function(){
+            esc_fullscreen();
+        });
+
+
+    });
+</script>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        // $("#list_gallery_holder").tabSlider({"interval":4000})
+        /*$("#list_gallery_holder").tabSlider({"interval":4000,"rotateLoop":6,})
+         $('.images_1').css('display','none');*/
+
+    });
+</script>
+
+<script type="text/javascript">
+    $(".search_top").hover(function(){
+        $(".sub_menu").show();
+    }, function(){
+        $(".sub_menu").hide();
+    });
+</script>
+<script type="text/javascript">
+    $(function(){
+        $('#search_result_menu ul li a').toggle(function(){
+            $('.search_result .search_result_content').hide();
+            $('#search_result_menu ul li').removeClass('active');
+            $(this).parent().addClass('active');
+            var data_active = $(this).data('id');
+            $(data_active).show();
+        },function(){
+            $(this).parent().removeClass('active');
+            var data_active = $(this).data('id');
+            $(data_active).hide();
+        });
+    });
+</script>
+<script type="text/javascript">
+    $('.button_left').click(function(){
+        $("input[type=checkbox]").attr("checked", false);
+    });
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('#mycarousel').jcarousel({
+            vertical : true,
+            scroll : 1
+        });
+    });
+</script>
+<script type="text/javascript">
+    $('.comment-reply-link').toggle(function(){
+        $(this).next('.comment_reply').show();
+    },function(){
+        $(this).next('.comment_reply').hide();
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('#registration_form').validate({
+            rules : {
+                "subscriber[email_id]" : {
+                    required : true,
+                    email : true
+                },
+
+            },
+            messages : {
+                "subscriber[email_id]" : {
+                    required : "The Email field should not be empty",
+                    email : "email is invalid"
+                },
+
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('#forgotten_form').validate({
+            rules : {
+                "user[email]" : {
+                    required : true,
+                    email : true
+                },
+
+            },
+            messages : {
+                "user[email]" : {
+                    required : "The Email field should not be empty",
+                    email : "email is invalid"
+                },
+
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(".search_top").hover(function() {
+        $(".sub_menu").show();
+    }, function() {
+        $(".sub_menu").hide();
+    });
+</script>
+<script type="text/javascript">
+    $(document).on('click', '.poll_survey', function() {
+        var poll_val = $('input:radio[name=poll_options_id]:checked').val();
+        var poll_view = $(this).attr('data-url');
+        var pollid = $("#poll_id").val();
+        $.ajax({
+            type : 'POST',
+            url : poll_view,
+            data : 'poll_options_id=' + poll_val + '&poll_id=' + pollid,
+            dataType : 'html',
+            beforeSend: function(xhr){
+                xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
+            },
+            success : function(update) {
+                $('#update-poll').html(update);
+            }
+        })
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('#send_to_friend_form').validate({
+            rules : {
+                "recepient_email[email]" : {
+                    required : true,
+                    email : true
+                },
+                "sender[email]" : {
+                    required : true,
+                    email : true
+                },
+                "sender[firstname]" : {
+                    required : true,
+
+                },
+                "sender[lastname]" : {
+                    required : true,
+                },
+
+            },
+            messages : {
+                "recepient_email[email]" : {
+                    required : "The recepient Email field should not be empty",
+                    email : "email is invalid"
+                },
+                "sender[email]" : {
+                    required : "The sender Email field should not be empty",
+                    email : "email is invalid"
+                },
+                "sender[firstname]" : {
+                    required : "The first name field should not be empty",
+
+                },
+                "sender[lastname]" : {
+                    required : "The last name field should not be empty",
+
+                },
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('#login_form').validate({
+            rules : {
+                "subscriber[email_id]" : {
+                    required : true,
+                    email : true
+                },
+                "subscriber[password]" : {
+                    required : true
+                }
+            },
+            messages : {
+                "subscriber[email_id]" : {
+                    required : "The Email field should not be empty",
+                    email : "email is invalid"
+                },
+                "subscriber[password]" : {
+                    required : "Password field should not be empty"
+                }
+            }
+        });
+    });
+
+
+</script>
+<script>
+    $(function() {
+        $('#subscriber_email_id').blur(function() {
+            var error_field = $('span[for="subscriber_email_id"]').is(':visible')
+            if($(this).attr('value')!="" && error_field==false){
+                $.ajax({
+                    url : '/wpl/check_subscriber_exist',
+                    data : 'email=' + $(this).attr('value') ,
+                    type : 'POST',
+                    dataType : 'json',
+                    success : function(data) {
+                        if (data.status == 'false') {
+                            if (confirm('This email id already exists,please go to login page')) {
+                                location.href = "/login";
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    });
+</script>
+<script>
+    $(function() {
+        $('#asset_reg_submit').click(function() {
+            var email = $("#subscriber_email_reg").val();
+            if(email==null||email=="")
+            {
+                alert("Please enter the email");
+                return false;
+            }
+            else
+            {
+                $.ajax({
+                    url : '/wpl/check_subscriber_exist',
+                    data : 'email=' + email ,
+                    type : 'POST',
+                    dataType : 'json',
+                    beforeSend: function(xhr){
+                        xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
+                    success : function(data) {
+                        if (data.status == 'false') {
+                            if (confirm('This email id already exists,please go to login page')) {
+                                location.href = "/login";
+                            }
+                        }
+                        else
+                        {
+                            $("#custom_reg_form").submit();
+                        }
+                    }
+                });
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('#register_form').validate({
+            rules : {
+                "subscriber[email_id]" : {
+                    required : true,
+                    email : true
+                },
+                "email[confirmation]" : {
+                    required : true,
+                    email : true,
+                    equalTo : "#subscriber_email_id"
+                },
+                "subscriber[password]" : {
+                    required : true,
+                    minlength : 6,
+                    //alphanumeric: true
+                },
+                "password[confirmation]" : {
+                    required : true,
+                    minlength : 6,
+                    //alphanumeric: true,
+                    equalTo : "#subscriber_password"
+                },
+                "subscriber[first_name]" : {
+                    required : true,
+                },
+                "subscriber[last_name]" : {
+                    required : true,
+                },
+
+                "subscriber_property[end_user_company_name]" : {
+                    required : true,
+                },
+                "subscriber_property[phone]" : {
+                    required : true,
+                    number : true
+                },
+                "subscriber_property[mobile]" : {
+                    number : true,
+                },
+                "subscriber_property[Job_title_id]" : {
+                    required : true,
+                },
+                "subscriber_property[terms_acceptance]" : {
+                    required : true,
+                },
+
+            },
+            messages : {
+                "subscriber[email_id]" : {
+                    required : "The Email field should not be empty",
+                    email : "email is invalid"
+                },
+                "email[confirmation]" : {
+                    required : "Please Enter the confirm Email address",
+                    email : "email is invalid",
+                    equalTo : "Please enter correct confirm Email address"
+                },
+                "subscriber[user_name]" : {
+                    required : "Username field should not be empty",
+                    minlength : "Please enter at least 6 characters."
+                },
+                "subscriber[password]" : {
+                    required : "Password field should not be empty",
+                    minlength : "Please enter at least 6 characters."
+                },
+                "password[confirmation]" : {
+                    required : "Re-Password field should not be empty",
+                    minlength : "Please enter at least 6 characters.",
+                    equalTo : "Please enter correct Re-Password"
+                },
+                "subscriber[first_name]" : {
+                    required : "The FirstName field should not be empty",
+                },
+                "subscriber[last_name]" : {
+                    required : "The LastName field should not be empty",
+                },
+
+                "subscriber_property[end_user_company_name]" : {
+                    required : "The company field should not be empty",
+                },
+
+                "subscriber_property[phone]" : {
+                    number : "Please enter number only",
+                },
+                "subscriber_property[Job_title_id]" : {
+                    required : "The Job Title field should not be empty",
+                },
+                "subscriber_property[terms_acceptance]" : {
+                    required : "The field should not be empty",
+                },
+            }
+        });
+
+    });
+
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('#questfddfdionnare_reg_form').validate({
+            rules : {
+                "subscriber_properties[first_name]" : {
+                    required : true,
+
+                },
+                "questionnaire_submission[new_answers][SingleAnswer][177]" : {
+                    required : true,
+                },
+                "subscriber_properties[county_id]" : {
+                    required : true,
+
+                },
+                "subscriber_properties[end_user_company_name]" : {
+                    required : true,
+
+                },
+                "subscriber_properties[last_name]" : {
+                    required : true,
+                },
+                "subscriber_properties[job_role_id]" : {
+                    required : true,
+                },
+
+                "subscriber_properties[job_title_id]" : {
+                    required : true,
+                },
+                "subscriber_properties[business_size_id]" : {
+                    required : true,
+
+                },
+                "subscriber_properties[industry_id]" : {
+                    required : true,
+                },
+                "subscriber_properties[phone]" : {
+                    required : true,
+                },
+                "subscriber_properties[address1]" : {
+                    required : true,
+                },
+                "subscriber_properties[city]" : {
+                    required : true,
+                },
+                "subscriber_properties[postal_code]" : {
+                    required : true,
+                },
+
+            },
+            messages : {
+                "subscriber_properties[first_name]" : {
+                    required : "The First Name field should not be empty",
+
+                },
+                "questionnaire_submission[new_answers][SingleAnswer][177]" : {
+                    required : "This field should not be empty",
+
+                },
+                "subscriber_properties[county_id]" : {
+                    required : "Country field should not be empty",
+
+                },
+                "subscriber_properties[end_user_company_name]" : {
+                    required : "Company Name field should not be empty",
+
+                },
+                "subscriber_properties[last_name]" : {
+                    required : "The Last Name field should not be empty",
+                },
+                "subscriber_properties[job_role_id]" : {
+                    required : "The Job Role field should not be empty",
+                },
+
+                "subscriber_properties[job_title_id]]" : {
+                    required : "The Job Title field should not be empty",
+                },
+
+                "subscriber_properties[business_size_id]" : {
+                    required : "The Business Size should not be empty",
+
+                },
+                "subscriber_properties[industry_id]" : {
+                    required : "The Company field should not be empty",
+                },
+                "subscriber_properties[phone]" : {
+                    required : "The Phone field should not be empty",
+                },
+                "subscriber_properties[phone]" : {
+                    required : "The Phone field should not be empty",
+                },
+                "subscriber_properties[address1]" : {
+                    required : "The Address field should not be empty",
+                },
+                "subscriber_properties[city]" : {
+                    required : "The City field should not be empty",
+                },
+                "subscriber_properties[postal_code]" : {
+                    required : "The Postal Code field should not be empty",
+                },
+            }
+        });
+
+    });
+
+    /*search checkbox submit function*/
+    $(function() {
+        $('.search_docs input:checkbox').click(function(){
+            var check_class=$(this).parents('.search_result_content').attr('id');
+            var check_count= $('#'+check_class).attr('data-attr');
+            if(check_count=='one'){
+                if($('#'+check_class).find('input[type="checkbox"]:checked').length>1){
+                    $('#'+check_class).find('input[type="checkbox"]').removeAttr('checked');
+                    $('#'+check_class).find(this).attr('checked','checked');
+                }
+            }
+        });
+
+        $('#search_doc_submit').click(function(){
+            var wpl_tax = ""
+            $('#menu_wpl input[type="checkbox"]:checked').each(function(){
+                wpl_tax+=$(this).attr("value")+"$";
+            });
+            var multiple_taxonomy = $('.search_docs #wpl_taxonomy_names').attr('value');
+            multiple_taxonomy+= wpl_tax
+            $('.search_docs #wpl_taxonomy_names').attr('value',multiple_taxonomy)
+            //	$('.search_docs #wpl_taxonomy_names').attr('value',$('#menu_wpl input[type="checkbox"]:checked').attr('value'))
+            $('.search_docs #content_type').attr('value',$('#menu_type input[type="checkbox"]:checked').attr('value'))
+            $('.search_docs #month_year_based').attr('value',$('#menu_date input[type="checkbox"]:checked').attr('value'))
+            $('.search_docs #company_name').attr('value',$('#menu_company input[type="checkbox"]:checked').attr('value'));
+            $('.search_docs form input').each(function(){
+                if($(this).attr('value')==""){
+                    $(this).removeAttr('name')
+                }
+            });
+            $('.relevance_select').removeAttr('name');
+            $('.search_docs #search_form').submit();
+        });
+
+
+        $('.search_author input:checkbox').click(function(){
+            var check_class=$(this).parents('.search_result_content').attr('id');
+            var check_count= $('#'+check_class).attr('data-attr');
+            if(check_count=='one'){
+                if($('#'+check_class).find('input[type="checkbox"]:checked').length>1){
+                    $('#'+check_class).find('input[type="checkbox"]').removeAttr('checked');
+                    $('#'+check_class).find(this).attr('checked','checked');
+                }
+            }
+        });
+
+        $('.search_author #search_submit').click(function(){
+            var wpl_tax = ""
+            $('#menu_cat input[type="checkbox"]:checked').each(function(){
+                wpl_tax+=$(this).attr("value")+"$";
+            });
+            var multiple_taxonomy = $('.search_author #wpl_taxonomy_names').attr('value');
+            multiple_taxonomy+= wpl_tax
+            $('.search_author #wpl_taxonomy_names').attr('value',multiple_taxonomy)
+            //	$('.search_author #wpl_taxonomy_names').attr('value',$('#menu_cat input[type="checkbox"]:checked').attr('value'))
+            $('.search_author #section').attr('value',$('#menu_content input[type="checkbox"]:checked').attr('value'))
+            $('.search_author #month_year_based').attr('value',$('#menu_publish input[type="checkbox"]:checked').attr('value'))
+            $('.search_author #author').attr('value',$('#menu_comp input[type="checkbox"]:checked').attr('value'));
+            $('.search_author form input').each(function(){
+                if($(this).attr('value')==""){
+                    $(this).removeAttr('name')
+                }
+            });
+            $('.relevance_select').removeAttr('name');
+            $('.search_author #search_form').submit();
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(function(){
+
+        $('.cancel_search').click(function(){
+            var author = $("#author").val();
+            if(author==undefined){
+                var serch_loc=location.protocol+"//"+location.host+"/full_library";
+            }
+            else{
+                var serch_loc=location.protocol+"//"+location.host+"/search?utf8=%E2%9C%93&query=&facet=true&sort=Date";
+            }
+            window.location.href=serch_loc;
+        });
+
+        $(".search_close").click(function(){
+            var block_id= '#'+$(this).parents('.search_result').attr('id');
+            var check_data = $(this).attr('data-id')
+            if(check_data=="wpl_taxonomy_names"){
+                var taxon = ""
+                $(block_id+" .search_close[data-id='wpl_taxonomy_names']").not($(this)).each(function(){
+                    taxon+=$(this).attr("data-value")+"$";
+                });
+                if(taxon==""){
+                    $(block_id).find('#'+$(this).attr('data-id')).attr('name','');
+                }
+                else{
+                    $(block_id).find('#'+$(this).attr('data-id')).attr('value',taxon);
+                }
+            }
+            else{
+                $(block_id).find('#'+$(this).attr('data-id')).attr('name','');
+            }
+            $(this).parent().remove();
+            $(block_id).find('form input').each(function(){
+                if($(this).attr('value')==""){
+                    $(this).removeAttr('name')
+                }
+            });
+            $('.relevance_select').removeAttr('name');
+            $(block_id).find('form').submit()
+        });
+
+    });
+
+    $(".container_left_content .left_content:last-child").css('padding-right','0px');
+    $('.tab_content .tab_info:last-child').css({'padding-bottom':'0px','border-bottom':'none'});
+    $('.left_content ul li:last-child').css('background','none');
+</script>
+<script type="text/javascript">
+    /*$(function() {
+     $("input#query").placeholder();
+     });*/
+
+</script>
+<script type="text/javascript">
+    $('.relevance_select').change(function(){
+        $('.search_box form #search_sort').attr('value',$(this).attr('value'));
+        $('.search_box form').submit()
+    });
+</script>
+<script type="text/javascript">
+    $(".search_top").hover(function(){
+        $(".sub_menu").show();
+    }, function(){
+        $(".sub_menu").hide();
+    });
+    $(".menu_400").click(function(){
+        $("#menu").toggle();
+    })
+</script>
+<script type="text/javascript">
+    $(function(){
+        $('#search_result_menu ul li a').toggle(function(){
+            $('.search_result .search_result_content').hide();
+            $('#search_result_menu ul li').removeClass('active');
+            $(this).parent().addClass('active');
+            var data_active = $(this).data('id');
+            $(data_active).show();
+        },function(){
+            $(this).parent().removeClass('active');
+            var data_active = $(this).data('id');
+            $(data_active).hide();
+        });
+    });
+</script>
+<script type="text/javascript">
+    $('.button_left').click(function(){
+        $("input[type=checkbox]").attr("checked", false);
+    });
+</script>
+
+<script type="text/javascript">
+    $(function(){
+        $('.social-links').toggle(function(){
+                    $(this).next('ul').show();
+                },
+                function(){
+                    $(this).next('ul').hide();
+                });
+
+
+        $('.mainmenu li.active a.global_400').toggle(function(){
+            $('.mainmenu>li').not('.mainmenu>li:first,.mainmenu>li:last').show();
+        },function(){
+            $('.mainmenu>li').not('.mainmenu>li:first,.mainmenu>li:last').hide();
+        });
+
+        $('.menu_400').toggle(function(){
+                    $(this).next('#menu').show();
+                },
+                function(){
+                    $(this).next('#menu').hide();
+                });
+    });
+</script>
+
+
+
+</body>
+</html>
