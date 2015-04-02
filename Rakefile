@@ -23,7 +23,7 @@ end
 APP_RAKEFILE = File.expand_path("../test/dummy/Rakefile", __FILE__)
 load 'rails/tasks/engine.rake'
 Dir.glob('lib/tasks/*.rake').each {|r| import r}
-
+import "./lib/tasks/copy_task.rake"
 Bundler::GemHelper.install_tasks
 
 require 'rake/testtask'
