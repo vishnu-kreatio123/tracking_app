@@ -85,8 +85,12 @@ module Blorgh
       end
     end
 
+    def user_behaviour
+      send_data(Base64.decode64("R0lGODlhAQABAPAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="), :type => "image/gif", :disposition => "inline")
+      tracking_code
+    end
+
     def tracking_code
-      debugger
       if session[:tracking_code].blank?
         session[:tracking_code] = SecureRandom.hex(20)
         cookies[:tracking_code_new] = SecureRandom.hex(20)
@@ -100,7 +104,7 @@ module Blorgh
       else
 
       end
-
     end
+
   end
 end

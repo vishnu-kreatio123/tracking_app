@@ -21,6 +21,7 @@
  jQuery
  */
 
+
 (function ($) {
     $.browserTest = function (a, z) {
         var u = 'unknown', x = 'X', m = function (r, h) {
