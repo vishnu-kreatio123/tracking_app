@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "used to track all the user info from webpage"
   s.description = "used to track all the user info from any webpage"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"] + Dir['tasks/*.rake']
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.3"
